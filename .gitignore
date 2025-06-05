@@ -8,6 +8,8 @@ Thumbs.db
 .vscode/
 *.swp
 *.bak
+.clj-kondo/
+.lsp/
 
 ############################
 # Clojure（Leiningen / deps.edn）
