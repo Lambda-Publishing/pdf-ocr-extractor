@@ -1,0 +1,1 @@
+(ns app.core.service.ocr-service)
