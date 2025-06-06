@@ -1,0 +1,1 @@
+(ns app.adapter.out.writer)
