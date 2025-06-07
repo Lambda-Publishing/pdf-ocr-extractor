@@ -1,4 +1,4 @@
-(ns adapter.in.cli
+(ns app.adapter.in.cli
   "CLI 処理本体。PDF からテキストを抽出して書き出す。"
   (:require [app.core.service.extractor :as extractor]
             [app.adapter.out.writer     :as writer]
