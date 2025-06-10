@@ -8,7 +8,7 @@
   "Extract text from IN (PDF path) and write it to OUT (text path)."
   [in out]
   (log/infof "Extracting text from %s -> %s" in out)
-  (-> in
+  (->> in
       extractor/extract-text
       (writer/write-text out))
   (log/info "Finished."))
