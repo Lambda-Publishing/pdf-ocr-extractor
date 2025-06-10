@@ -18,7 +18,9 @@ Thumbs.db
 /.cpcache/
 /.lein-repl-history
 /.nrepl-port
-
+dev/input/*.pdf
+dev/output/*.txt
+.calva/
 ############################
 # 共通: ログ・秘密情報
 ############################
